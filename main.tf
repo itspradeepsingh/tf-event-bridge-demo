@@ -9,8 +9,7 @@ terraform {
 }
 
 # Configure the AWS Provider
-provider "aws" {
-  profile = ${{ secrets.shared }}
+provider "aws" { 
   region = "us-east-1"
 }
 
